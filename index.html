@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Omar's Hope Fund</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Personal Support Page</p>
+        <div class="hero-grid">
+          <div class="hero-text">
+            <h1>Help Omar Keep Hope Alive</h1>
+            <p class="subtitle">
+              I am Omar, 27, from Iraq. I live with viral hepatitis and very limited income.
+              If you are able to help, your support goes toward treatment, tests, and daily
+              living, and it gives me the strength to keep going.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#donate">Donate Now</a>
+              <a class="button ghost" href="#story">Read My Story</a>
+            </div>
+          </div>
+          <figure class="hero-photo">
+            <img src="assets/omar.jpg" alt="Portrait of Omar" />
+            <figcaption>Omar, 27, Iraq</figcaption>
+          </figure>
+        </div>
+      </header>
+
+      <section id="story" class="card story">
+        <h2>My Story</h2>
+        <p>
+          I grew up in Iraq and still live here. Work is unstable and wages are low, so it is
+          difficult to cover rent, food, and medical costs at the same time. Many months I face
+          painful choices between basic needs and clinic visits.
+        </p>
+        <p>
+          Viral hepatitis brings exhaustion, pain, and frequent tests. Some days I cannot work,
+          and the worry never fully leaves me. I am trying to get proper treatment and keep my
+          life together with dignity.
+        </p>
+        <p>
+          I love video games because they help me stay calm and hopeful on difficult days. I
+          want to live, recover, and build a stable future. If you can support me, even a
+          small amount can make a real difference.
+        </p>
+      </section>
+
+      <section class="card hardship">
+        <h2>Daily Reality in Iraq</h2>
+        <p>
+          Life here is difficult, especially for someone who is sick and poor. I do not have
+          a safety net, and every medical expense is a heavy burden. I am asking with humility
+          for a chance to keep fighting this illness.
+        </p>
+        <ul>
+          <li>Unstable income and rising living costs</li>
+          <li>Limited access to affordable treatment</li>
+          <li>Transportation costs to clinics and labs</li>
+          <li>Health setbacks that reduce my ability to work</li>
+        </ul>
+      </section>
+
+      <section class="card impact">
+        <h2>How Your Help Is Used</h2>
+        <ul>
+          <li>Medical visits and laboratory tests</li>
+          <li>Medication and ongoing treatment</li>
+          <li>Basic living costs while I focus on recovery</li>
+        </ul>
+      </section>
+
+      <section id="donate" class="card donate">
+        <h2>Ways to Donate</h2>
+        <div class="donation-grid">
+          <div class="donation-box">
+            <h3>Bitcoin</h3>
+            <p class="muted">Send to this address:</p>
+            <p class="mono" id="btcAddress">3KS2SY2jQQXBwqD7drLiMTytgUubHQxHd7</p>
+            <button class="button primary" id="copyBtc">Copy BTC Address</button>
+          </div>
+          <div class="donation-box">
+            <h3>Payoneer Transfer</h3>
+            <p class="muted">Use this Payoneer email:</p>
+            <p class="mono">bmw15925@gmail.com</p>
+            <a class="button primary" href="mailto:bmw15925@gmail.com">Email for Transfer</a>
+          </div>
+        </div>
+        <p class="fineprint">
+          Thank you for reading. If you can donate or share this page, it means a lot to me.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <p>This is a personal page, not a registered charity.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
